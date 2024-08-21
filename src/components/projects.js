@@ -1,2 +1,5 @@
-import Project from "./project";
-export function Projects() {}
+import { Project } from "./project.js";
+export function Projects() {
+  Project();
+  console.log("Hello internet");
+}
